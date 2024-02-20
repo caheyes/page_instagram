@@ -108,24 +108,29 @@ body {
 .download {
   display: flex;
   width: 100%;
-  justify-content: space-evenly;
+  justify-content: center;
   align-items: center;
   padding: 1em;
+  gap: 30px;
 }
 
-.app-download {
+.button-download {
+    width: 30px;
+}
+
+/* .app-download {
   height: 3em;
   width: 10em;
   background-size: cover;
-}
+} */
 
-.app-download:nth-child(1) {
-  background-image: url("./img/apple-button.png");
+/* .app-download:nth-child(1) {
+  background-image: url("./img/apple.svg");
 }
 
 .app-download:nth-child(2) {
-  background-image: url("./img/google-play-button.png");
-}
+  background-image: url("./img/google-play.svg");
+} */
 
 /*media query */
 @media (max-width: 1024px) {
